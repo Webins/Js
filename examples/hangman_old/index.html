@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  <body>
+    <div>
+      <p id="country">
+      </p>
+      </div>
+       <center>
+        <h1 style="margin-top:5rem;" >Hangman Game</h1>
+
+        <div>
+          <p id="error"></p>
+        </div>
+
+        
+        <div id="statusContainer" style="margin-top:2rem;" hidden>
+          <h1>Status</h1>
+          <p id="status"></p>
+        </div>
+
+        <h1 id="puzz" hidden>Puzzle</h1>
+        <center>
+        <div id="puzzle" class="puzzle">
+          
+        </div>
+</center>
+        
+        <div id ="remainingGuessesContainer" hidden>
+          <h1 id="remain">Remaining guesses</h1>
+          <p id="guesses"> </p>
+        </div>
+   
+        <select class="dropdown" id="levels">
+          <option disabled>Select Level</option>
+          <option value=1 selected> Level 1</option>
+          <option value=2 > Level 2</option>
+          <option value=3 > Level 3</option>
+          <option value=4 > Level 4</option>
+          <option value=5 > Level 5</option>
+          <option value=6 > Level 6</option>
+          <option value=7 > Level 7</option>
+          <option value=8 > Level 8</option>
+          <option value=9 > Level 9</option>
+        </select>
+        <button class="button" id="start" style="width: 10vw">Start</button>
+     </center>
+       <script src ="./scripts/requests.js" type="text/javascript"> </script>
+      <script src ="./scripts/hangman.js" type="text/javascript"> </script>
+    <script src ="./scripts/app.js" type="text/javascript"> </script>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Notes App</title>
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+     <h1 class="header__title">Notes App</h1> 
+    <h2 class="header__subtitle">Ver 4.0</h2> 
+  </div>
+  </div>
+
+   <div class="actions">
+    <div class="actions__container">
+    <label>
+        Search a note:
+        <input class ="input-note input" type="text" id="search-note" placeholder="search note" />
+    </label>
+    <select class="dropdown" id="filter-by">
+      <option selected disabled hidden>Sort notes</option>
+      <option value=1> Sort alphabetically </option>
+      <option value=2> Sort by last edited </option>
+      <option value=3> Sort by created </option>
+    </select>
+  </div>
+</div>
+<div class="container">
+<div id="notes">
+        <li id="list" style="list-style: none">
+
+        </li>
+    </div>
+    <button class="button" type = "submit" id ="createNote" >Create note</button>
+  </div>
+  </center>
+    <script type="text/javascript" src="./scripts/index-bundle.js"></script>
+  </body>
+</html>
