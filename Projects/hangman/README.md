@@ -1,6 +1,6 @@
 # Hangman
 
-El juego del ahorrcado, escrito unicamente con JS
+El juego del ahorcado escrito unicamente con JS
 
 Puedes visualizarlo en http://hangman-game.webins.surge.sh/
 
