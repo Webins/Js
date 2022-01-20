@@ -1,4 +1,9 @@
 # Hangman
-A hangman game made from purely js.
+
+El juego del ahorrcado, escrito unicamente con JS
+
+Puedes visualizarlo en http://hangman-game.webins.surge.sh/
+
+The hangman game written with only js.
 
 take a look at http://hangman-game.webins.surge.sh/
