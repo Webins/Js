@@ -1,6 +1,6 @@
 # Note App
 
-Aplicacion para escribir notas para revisar luego
+Aplicacion para escribir notas que puedes revisar luego
 
 echa un vistazo en http://notes-app.webins.surge.sh/
 
